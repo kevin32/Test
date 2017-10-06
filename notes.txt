@@ -1,0 +1,11 @@
+ionic g page settings -> Genereerib uue page
+Peale seda peab minema app.modules.ts ja lisama selle sinna:
+1. import {pageName} from '../pages/page/page'
+2. @NgModule alla, kus declarations ja entryComponetsi peab ka lisama pageName
+Et tabside alla panna, mine tabs.ts
+1. 1. import {pageName} from '../pages/page/page'
+2. Lisa rooti
+3. htmlis muuda nime
+
+
+ionic g provider nimi -> Teeb provider klassi / angular serve 
